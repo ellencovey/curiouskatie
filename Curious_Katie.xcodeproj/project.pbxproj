@@ -14,6 +14,10 @@
 		9BC6828022AE79A8005F786D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6827E22AE79A8005F786D /* LaunchScreen.storyboard */; };
 		9BC6828B22AE79A8005F786D /* Curious_KatieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC6828A22AE79A8005F786D /* Curious_KatieTests.swift */; };
 		9BC6829622AE79A8005F786D /* Curious_KatieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC6829522AE79A8005F786D /* Curious_KatieUITests.swift */; };
+		9BC682A422AE79BB005F786D /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC682A322AE79BB005F786D /* Utility.swift */; };
+		9BC682A622AE79E2005F786D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC682A522AE79E2005F786D /* Person.swift */; };
+		9BC682A822AE79FF005F786D /* Interest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC682A722AE79FF005F786D /* Interest.swift */; };
+		9BC682AA22AE7A39005F786D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC682A922AE7A39005F786D /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		9BC6829122AE79A8005F786D /* Curious_KatieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Curious_KatieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BC6829522AE79A8005F786D /* Curious_KatieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curious_KatieUITests.swift; sourceTree = "<group>"; };
 		9BC6829722AE79A8005F786D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BC682A322AE79BB005F786D /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		9BC682A522AE79E2005F786D /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		9BC682A722AE79FF005F786D /* Interest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interest.swift; sourceTree = "<group>"; };
+		9BC682A922AE7A39005F786D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,8 @@
 		9BC6827422AE79A4005F786D /* Curious_Katie */ = {
 			isa = PBXGroup;
 			children = (
+				9BC682AB22AE7A4C005F786D /* model */,
+				9BC682AC22AE7A54005F786D /* utils */,
 				9BC6827522AE79A4005F786D /* AppDelegate.swift */,
 				9BC6827722AE79A4005F786D /* ViewController.swift */,
 				9BC6827922AE79A4005F786D /* Main.storyboard */,
@@ -123,6 +133,24 @@
 				9BC6829722AE79A8005F786D /* Info.plist */,
 			);
 			path = Curious_KatieUITests;
+			sourceTree = "<group>";
+		};
+		9BC682AB22AE7A4C005F786D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				9BC682A722AE79FF005F786D /* Interest.swift */,
+				9BC682A522AE79E2005F786D /* Person.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		9BC682AC22AE7A54005F786D /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				9BC682A322AE79BB005F786D /* Utility.swift */,
+				9BC682A922AE7A39005F786D /* Extensions.swift */,
+			);
+			path = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +285,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BC6827822AE79A4005F786D /* ViewController.swift in Sources */,
+				9BC682AA22AE7A39005F786D /* Extensions.swift in Sources */,
 				9BC6827622AE79A4005F786D /* AppDelegate.swift in Sources */,
+				9BC682A622AE79E2005F786D /* Person.swift in Sources */,
+				9BC682A422AE79BB005F786D /* Utility.swift in Sources */,
+				9BC682A822AE79FF005F786D /* Interest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
